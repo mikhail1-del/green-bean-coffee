@@ -443,37 +443,47 @@
       </div>
     </section>
 
-    <!-- ========== ONLINE PAYMENT ========== -->
-    <section id="payment" class="py-16 sm:py-20 lg:py-28 bg-light">
+    <section id="payment" class="py-20 bg-[#E8F0E9]">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="fade-in-up max-w-4xl mx-auto text-center">
-          <h2 class="font-heading text-3xl sm:text-4xl font-bold text-primary mb-4">Оплати онлайн — получи скидку 5%</h2>
-          <p class="text-lg text-dark/70 mb-8">Быстро, безопасно, без очереди</p>
+        <div class="text-center mb-12">
+          <h2 class="text-4xl font-bold text-[#2D5A4A] mb-4">
+            Оплати онлайн — получи скидку 5%
+          </h2>
+          <p class="text-lg text-gray-600">
+            Быстро, безопасно, без очереди
+          </p>
+        </div>
 
-          <div class="flex justify-center gap-6 sm:gap-10 mb-10 text-4xl sm:text-5xl text-primary/80">
-            <i class="fab fa-cc-visa" title="Visa"></i>
-            <i class="fab fa-cc-mastercard" title="Mastercard"></i>
-            <i class="fas fa-credit-card" title="Mir"></i>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
+          <!-- Иконки платёжных систем -->
+          <div class="flex justify-center items-center space-x-8 text-6xl text-[#2D5A4A]">
+            <i class="fab fa-cc-visa"></i>
+            <i class="fab fa-cc-mastercard"></i>
+            <i class="fab fa-cc-mir"></i>
           </div>
 
-          <div class="grid grid-cols-1 sm:grid-cols-3 gap-6 mb-10">
-            <div class="bg-white rounded-xl p-6 shadow-md">
-              <i class="fas fa-bolt text-3xl text-accent mb-3"></i>
-              <p class="font-medium text-primary">Мгновенное подтверждение</p>
+          <!-- Преимущества -->
+          <div class="space-y-4">
+            <div class="flex items-center justify-center space-x-3">
+              <i class="fas fa-check-circle text-[#7FB069]"></i>
+              <span class="text-gray-700">Мгновенное подтверждение</span>
             </div>
-            <div class="bg-white rounded-xl p-6 shadow-md">
-              <i class="fas fa-shield-alt text-3xl text-accent mb-3"></i>
-              <p class="font-medium text-primary">Безопасная оплата</p>
+            <div class="flex items-center justify-center space-x-3">
+              <i class="fas fa-check-circle text-[#7FB069]"></i>
+              <span class="text-gray-700">Безопасная оплата</span>
             </div>
-            <div class="bg-white rounded-xl p-6 shadow-md">
-              <i class="fas fa-undo text-3xl text-accent mb-3"></i>
-              <p class="font-medium text-primary">Возврат за 5 минут</p>
+            <div class="flex items-center justify-center space-x-3">
+              <i class="fas fa-check-circle text-[#7FB069]"></i>
+              <span class="text-gray-700">Возврат за 5 минут</span>
             </div>
           </div>
 
-          <button class="px-8 py-4 bg-primary hover:bg-[#1E3D32] text-white font-heading font-semibold rounded-xl transition-all hover:scale-105 text-lg">
-            Подключить онлайн-оплату
-          </button>
+          <!-- Кнопка -->
+          <div class="flex items-center justify-center">
+            <button class="bg-[#2D5A4A] hover:bg-[#1E3D32] text-white px-8 py-4 rounded-lg font-semibold transition-all hover:scale-105">
+              Подключить онлайн-оплату
+            </button>
+          </div>
         </div>
       </div>
     </section>
